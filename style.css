@@ -653,7 +653,8 @@ svg{
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 15px;
-	margin-top: 16px;
+	margin-top: 11px;
+	margin-left: 2px;
 }
 
 #news__mail{
@@ -693,7 +694,12 @@ svg{
 	height: 100%;
 	border: none;
 	background-color: #e8e8e8;
+	display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
 }
+
 
 #news__input:focus,#news__btn:focus{
 	border:none;
@@ -708,5 +714,6 @@ svg{
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 15px;
-	margin-top: 16px;	
+	margin-top: 10px;	
+	margin-left: 2px;
 }
