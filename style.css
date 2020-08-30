@@ -149,7 +149,15 @@ header ul{
 .menu__list:hover{
 	background-color: #d45757;
 }
+
 .menu__list:hover a{
+	color: #ffffff;
+}
+.active__list{
+	background-color: #d45757;
+}
+
+.active__list a{
 	color: #ffffff;
 }
 
